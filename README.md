@@ -5,19 +5,19 @@ Decrypts a cipher and returns all possible solutions. I made this project as an 
 On main.cpp, one can chane the constant DECRYPT_THIS to be a string of their choice. If there is a matching decryption for this string based on the given list of dictionary words, it will return the translation. Otherwise it will notify you that there is no translation. The three tests all show the success of the decrypter on different ciphers. Apostrophes and question marks are not supported in the ciphers. The following are supported and will kept exactly as is in the translation: 1234567890 ,;:.!()[]{}-"#$%^&
 
 ## Class Descriptions
-# MyHash
+### MyHash
 MyHash is an implementation of a hash table. The rules for this project made it so no mappings were allowed. Therefore, in order to reach the desired efficiency, an implementation of a hash table was necessary.
 
-# Decrypter
+### Decrypter
 The decrypter decodes the cipher by recursively checking which mapping works for all characters in the cipher. This is the class where the decoded words are returned.
 
-# Tokenizer
+### Tokenizer
 The Tokenizer splits the starting cipher string into separate words and stores them into a vector.
 
-# Translator
+### Translator
 The translator uses a linked list that acts as a stack to store current mappings. Mappings are relating each letter in the alphabet to another letter. This is what is used to see how many matches there are in a mapping and to ultimately decode the cipher.
 
-# WordList
+### WordList
 The WordList is the class that stores the allowed words. The allowed words are loaded from the enigmix.txt file that has plenty of English dictionary words.
 
 ## Credit
