@@ -2,7 +2,7 @@
 Decrypts a cipher and returns all possible solutions. I made this project as an assignment for my class. The only files provided from the instructor are provided.h and the referenced dictionary word list text file.
 
 ## Usage
-On main.cpp, one can chane the constant DECRYPT_THIS to be a string of their choice. If there is a matching decryption for this string based on the given list of dictionary words, it will return the translation. Otherwise it will notify you that there is no translation. The three tests all show the success of the decrypter on different ciphers. Apostrophes and question marks are not supported in the ciphers. The following are supported and will kept exactly as is in the translation: 1234567890 ,;:.!()[]{}-"#$%^&
+On main.cpp, one can change the constant DECRYPT_THIS to be a string of their choice. If there is a matching decryption for this string based on the given list of dictionary words, it will return the translation. Otherwise it will notify you that there is no translation. The three tests all show the success of the decrypter on different ciphers. Apostrophes and question marks are not supported in the ciphers. The following are supported and will kept exactly as is in the translation: 1234567890 ,;:.!()[]{}-"#$%^&
 
 ## Class Descriptions
 ### MyHash
