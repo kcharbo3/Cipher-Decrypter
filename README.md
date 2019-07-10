@@ -6,7 +6,7 @@ On main.cpp, one can change the constant DECRYPT_THIS to be a string of their ch
 
 ## Class Descriptions
 ### MyHash
-MyHash is an implementation of a hash table. The rules for this project made it so no mappings were allowed. Therefore, in order to reach the desired efficiency, an implementation of a hash table was necessary.
+MyHash is an implementation of a hash table. The rules for this project made it so that using the STL unordered_map or map are not allowed. Therefore, in order to reach the desired efficiency, an implementation of a hash table was necessary.
 
 ### Decrypter
 The decrypter decodes the cipher by recursively checking which mapping works for all characters in the cipher. This is the class where the decoded words are returned.
